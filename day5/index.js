@@ -80,7 +80,43 @@ const people = [
   { name: "ram", age: 26 },
   { name: "bishal", age: 23 },
 ];
+
 //sort in assending order by age =>small to big
+
+const name1 = "achyut"; //no updation
+let person = "arjun"; //value update huncha
+person = "hari";
+//looop=>(start,condition, stepper){}
+//for
+//do while=>do{logic} While(condition)
+//while
+//print from 1 to 1o with for loop
+for (let i = 1; i <= 10; i++) {
+  console.log(i);
+}
+//print from 1 to 1o with  do while loop
+let j = 0;
+do {
+  console.log(j);
+  j++;
+} while (j <= 10);
+//print from 1 to 1o with for loop
+let k = 0;
+while (k <= 10) {
+  console.log(k);
+  k++;
+}
+//Statement
+//=>if else
+//switch case
+
+const username = "Achyut";
+const password = "Achyut";
+if (username === password) {
+  console.log("loged in");
+} else {
+  console.log("username and password doesnt match");
+}
 //let food=['noodle','pasta','icecream'];
 //let food=['fries','icecream','pizza'];
 //compare this 2 array and find common food only if any.
