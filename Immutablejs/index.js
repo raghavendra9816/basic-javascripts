@@ -24,3 +24,5 @@ console.log(oldDate);
 //("2024-04--07T12:36:04.542+00:00")
 console.log(oldDate.toISOString());
 console.log(new Date("2024-04-07T12:36:04.542+00:00").toLocaleString());
+//browser ma tolocalstring ma rakcha
+
